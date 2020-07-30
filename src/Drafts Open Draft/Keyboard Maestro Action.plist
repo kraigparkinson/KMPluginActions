@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>@kraigparkinson</string>
+	<key>Help</key>
+	<string>Open the draft in Drafts with given parameters</string>
+	<key>Name</key>
+	<string>Drafts Open Draft</string>
+	<key>Results</key>
+	<string>None</string>
+	<key>Script</key>
+	<string>Action.scpt</string>
+	<key>Title</key>
+	<string>Drafts Open Draft</string>
+	<key>Parameters</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>TokenString</string>
+			<key>Label</key>
+			<string>UUID</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>TokenString</string>
+			<key>Label</key>
+			<string>Action</string>
+		</dict>
+		<dict>
+			<key>Menu</key>
+			<string>Nothing|Archive|Delete</string>
+			<key>Label</key>
+			<string>After Success</string>
+			<key>Type</key>
+			<string>PopupMenu</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>Checkbox</string>
+			<key>Label</key>
+			<string>Allow Empty</string>
+		</dict>
+	</array>
+</dict>
+</plist>

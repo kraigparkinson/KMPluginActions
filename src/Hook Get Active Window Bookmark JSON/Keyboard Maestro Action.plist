@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>@kraigparkinson</string>
+	<key>Help</key>
+	<string>Get the active window bookmark as JSON</string>
+	<key>Name</key>
+	<string>Hook Get Active Window Bookmark as JSON</string>
+	<key>Results</key>
+	<string>Variable|Window|Briefly|Clipboard</string>
+	<key>Script</key>
+	<string>Action.scpt</string>
+	<key>Title</key>
+	<string>Hook Get Active Window Bookmark as JSON</string>
+</dict>
+</plist>
